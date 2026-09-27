@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+workspace/
+vendor/wheels/
+vendor/models/
+vendor/datasets/
+.DS_Store
+
+# кэш pytest
+.pytest_cache/
+# симлинки на скиллы из .venv
+.agents/
+# Word-документ не публикуется
+*.docx
+.claude/skills/

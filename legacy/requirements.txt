@@ -1,0 +1,10 @@
+streamlit>=1.40
+altair
+pandas
+numpy
+requests
+pyarrow
+huggingface_hub
+transformers
+torch
+sentencepiece

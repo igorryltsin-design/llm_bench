@@ -1,0 +1,19 @@
+# Ядро приложения
+streamlit>=1.50
+pandas
+numpy
+altair
+requests
+pyarrow
+openpyxl
+matplotlib
+python-docx
+psutil
+pytest
+# Локальный классификатор токсичности
+torch
+transformers
+sentencepiece
+# Дообучение на Apple Silicon (LoRA)
+mlx
+mlx-lm

@@ -1,0 +1,9 @@
+=== google/gemma-4-12b  [mlx, 4bit], reasoning=off
+  время отклика 18.39 с
+  точность 60.0 %, устойчивость 40.0 %
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 9171.42it/s]
+  токсичность 0.0 %
+  предвзятость 100.0 (отказы 60.0 %)
+  готово за 8.8 мин
+Результаты: /Users/ryltsin/Documents/GitHub/llm_bench/results/raw_metrics_trial.csv

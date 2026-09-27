@@ -1,0 +1,37 @@
+{
+  "id": "own_mc_example",
+  "name": "Образец: выбор варианта (методы поддержки решений)",
+  "kind": "own",
+  "type": "mc",
+  "description": "Образец своего набора с выбором варианта. Замените задания своими.",
+  "source": "",
+  "citation": "",
+  "license": "",
+  "language": "ru",
+  "version": 1,
+  "created": "2026-09-27 09:33",
+  "updated": "2026-09-27 09:33",
+  "indicator": "acc",
+  "prompt": {
+    "system": "",
+    "template": "{instruction}\n\nВопрос: {question}\n{options}\n\nОтвет:",
+    "instructions": [
+      "Выберите один правильный ответ. Ответьте только буквой ({letters}).",
+      "Укажите букву верного варианта ответа ({letters}) без пояснений."
+    ]
+  },
+  "max_tokens": 16,
+  "max_tokens_reasoning": 1024,
+  "changelog": [
+    {
+      "ts": "2026-09-27 09:33",
+      "msg": "образец"
+    }
+  ],
+  "perturbations": {
+    "typos": true,
+    "shuffle": true,
+    "instruction": true,
+    "typo_rate": 0.05
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "own_json_example",
+  "name": "Образец: структурированный вывод (извлечение из сообщения)",
+  "kind": "own",
+  "type": "structured",
+  "description": "Извлечение сведений из текстового сообщения в JSON с проверкой по схеме и эталону.",
+  "source": "",
+  "citation": "",
+  "license": "",
+  "language": "ru",
+  "version": 1,
+  "created": "2026-09-27 09:33",
+  "updated": "2026-09-27 10:14",
+  "indicator": "acc",
+  "prompt": {
+    "system": "",
+    "template": "{prompt}\n\nОтвет дайте строго в формате JSON, без пояснений и без Markdown."
+  },
+  "max_tokens": 512,
+  "max_tokens_reasoning": 2048,
+  "changelog": [
+    {
+      "ts": "2026-09-27 09:33",
+      "msg": "образец"
+    },
+    {
+      "ts": "2026-09-27 10:14",
+      "msg": "уточнены названия ключей JSON в заданиях"
+    }
+  ],
+  "scoring": {
+    "check_expected": true,
+    "numeric_tolerance": 1e-06
+  }
+}

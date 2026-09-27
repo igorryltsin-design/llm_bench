@@ -1,0 +1,29 @@
+{
+  "id": "latency_ru",
+  "name": "Время отклика: типовой запрос",
+  "kind": "external",
+  "type": "perf",
+  "description": "Медиана по 20 повторам времени ответа на типовой запрос при ограничении 256 токенами (после одного прогревочного запроса).",
+  "source": "методика статьи",
+  "citation": "",
+  "license": "",
+  "language": "ru",
+  "version": 1,
+  "created": "2026-09-27 09:33",
+  "updated": "2026-09-27 09:33",
+  "indicator": "lat",
+  "prompt": {
+    "system": "",
+    "template": "{prompt}"
+  },
+  "max_tokens": 256,
+  "max_tokens_reasoning": 256,
+  "changelog": [
+    {
+      "ts": "2026-09-27 09:33",
+      "msg": "создан"
+    }
+  ],
+  "repeats": 20,
+  "warmup": 1
+}

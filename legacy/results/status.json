@@ -1,0 +1,1 @@
+{"state": "done", "stage": "завершено", "updated": 1790489650.642164, "pid": 37083, "out": "raw_metrics_trial.csv", "models": ["google/gemma-4-12b"], "done_models": ["google/gemma-4-12b"], "model": null, "i": 5, "n": 5, "error": null, "started": 1790489123.7250822}

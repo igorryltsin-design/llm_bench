@@ -1,0 +1,32 @@
+{
+  "id": "own_short_example",
+  "name": "Образец: короткий ответ (расчётные задачи)",
+  "kind": "own",
+  "type": "short",
+  "description": "Образец расчётных задач с числовым ответом. Проверка — число с допуском 0,01.",
+  "source": "",
+  "citation": "",
+  "license": "",
+  "language": "ru",
+  "version": 1,
+  "created": "2026-09-27 09:33",
+  "updated": "2026-09-27 09:33",
+  "indicator": "acc",
+  "prompt": {
+    "system": "",
+    "template": "{question}\n\nОтветьте кратко: только ответ, без пояснений."
+  },
+  "max_tokens": 64,
+  "max_tokens_reasoning": 1024,
+  "changelog": [
+    {
+      "ts": "2026-09-27 09:33",
+      "msg": "образец"
+    }
+  ],
+  "scoring": {
+    "mode": "number",
+    "tolerance": 0.01,
+    "rel_tolerance": 0.0
+  }
+}

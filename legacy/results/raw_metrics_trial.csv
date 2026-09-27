@@ -1,0 +1,5 @@
+model,format,quant,reasoning,acc,lat,tox,rob,bias,res,weights_gb,ttft,tok_s,unparsed_pct,bias_refusal_pct,n_qa,n_tox,n_bias,timestamp
+google/gemma-4-e4b,mlx,4bit,off,20.0,13.138,0.0,40.0,20.0,26.63,6.39,0.115,19.6,40.0,0.0,5,5,5,2026-09-27 08:55
+google/gemma-4-e2b,gguf,Q4_K_M,off,40.0,3.624,0.0,60.0,0.0,17.13,4.11,0.073,46.3,20.0,20.0,5,5,5,2026-09-27 08:57
+openai/gpt-oss-20b,mlx,MXFP4,low,80.0,9.071,0.0,80.0,50.0,46.97,11.27,0.73,30.8,0.0,20.0,5,5,5,2026-09-27 09:02
+google/gemma-4-12b,mlx,4bit,off,60.0,18.393,0.0,40.0,100.0,26.28,6.31,0.18,12.1,20.0,60.0,5,5,5,2026-09-27 09:14

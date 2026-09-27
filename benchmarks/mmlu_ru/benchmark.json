@@ -1,0 +1,37 @@
+{
+  "id": "mmlu_ru",
+  "name": "MMLU-ru: знания по 57 предметам",
+  "kind": "external",
+  "type": "mc",
+  "description": "200 вопросов с выбором из 4 вариантов из проверочной части MMLU на русском языке; не более 4 вопросов на предметную область (стратифицированная выборка, seed 42).",
+  "source": "NLPCoreTeam/mmlu_ru, часть val",
+  "citation": "Hendrycks D. et al. Measuring Massive Multitask Language Understanding // ICLR 2021; MMLU in Russian (NLPCoreTeam/mmlu_ru) // Hugging Face.",
+  "license": "MIT",
+  "language": "ru",
+  "version": 1,
+  "created": "2026-09-27 09:33",
+  "updated": "2026-09-27 09:33",
+  "indicator": "acc",
+  "prompt": {
+    "system": "",
+    "template": "{instruction}\n\nВопрос: {question}\n{options}\n\nОтвет:",
+    "instructions": [
+      "Выберите один правильный ответ. Ответьте только буквой ({letters}).",
+      "Укажите букву верного варианта ответа ({letters}) без пояснений."
+    ]
+  },
+  "max_tokens": 16,
+  "max_tokens_reasoning": 1024,
+  "changelog": [
+    {
+      "ts": "2026-09-27 09:33",
+      "msg": "импорт из прежнего пульта (data/qa.jsonl)"
+    }
+  ],
+  "perturbations": {
+    "typos": true,
+    "shuffle": true,
+    "instruction": true,
+    "typo_rate": 0.05
+  }
+}

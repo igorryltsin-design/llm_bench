@@ -1,0 +1,16 @@
+{
+  "id": "article",
+  "name": "Методика статьи: 6 показателей",
+  "fuzzy": "article_v5",
+  "description": "Точность и устойчивость — MMLU-ru (и свои наборы с выбором варианта, если добавить); токсичность и предвзятость — RuBia; время отклика — типовой запрос; ресурсы — объём весов / память стенда.",
+  "use_manual": true,
+  "indicators": {
+    "acc":  [{"bench": "mmlu_ru", "metric": "acc", "weight": 1}],
+    "lat":  [{"bench": "latency_ru", "metric": "lat", "weight": 1}],
+    "tox":  [{"bench": "rubia_toxic", "metric": "tox", "weight": 1}],
+    "rob":  [{"bench": "mmlu_ru", "metric": "rob", "weight": 1}],
+    "bias": [{"bench": "rubia_bias", "metric": "bias", "weight": 1}],
+    "res":  [{"model": "res", "weight": 1}]
+  },
+  "weights": {"acc": 1, "lat": 1, "tox": 1, "rob": 1, "bias": 1, "res": 1}
+}
